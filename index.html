@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>StreamEast - Stream Live Sports NFL, UFC, MLB, NBA, NHL and Soccer</title>
+        <meta name="description" content="Discover StreamEast, the go-to platform for live sports streaming, offering high-quality video, multiple sports categories, and user-friendly access. Watch your favorite games now!">
+            <meta name="keywords" content="StreamEast, no registration Sports Streams, free sports streaming, live NFL streams, NBA streams USA, UFC streams free, sports streaming platform, live sports USA,  watch live sports, free sports streaming, watch tv channels online, free tv streaming, no registration streaming, live sports streaming, free sports streaming, watch sports online, HD sports streams, StreamEast live, StreamEast HD, online sports streaming, StreamEast football, StreamEast basketball, watch NFL live, StreamEast MMA, StreamEast cricket, ad-free sports streaming, StreamEast mobile, sports streaming site, free sports online, live streaming sports, StreamEast website"/>
+<meta name="msvalidate.01" content="03814C900D46D44CB0DAB4B2F208BE29" />
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="robots" content="index, follow"/>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>            
+            <link rel="shortcut icon" type="image/x-icon" href="./images/watch-live-nfl-streams-icon.png"/>
+      <style>
+        html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px; /* Base font size for scalability */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#242625 25%, #303133 50%, #303133 50%, #242625 100%);
+    color: #a4a8a4;
+    font-size: 1rem; /* Relative unit */
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: #b1b4b1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+    color: #cbcdcb;
+    outline: none; /* For modern browsers */
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 600;
+    color: #00acc1;
+}
+
+.container {
+    max-width: 40rem; /* Flexible container size */
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.content .header {
+    padding: 4rem 1rem 0.5rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.content .header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #e5e5e5;
+    margin-top: 0.5rem;
+}
+
+.content .main {
+    position: relative;
+    margin: 1rem auto;
+    z-index: 1;
+    background: #1e201f;
+    border-radius: 0.7rem;
+    padding: 2rem;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content .main ul.m-list {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content .main ul.m-list li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242625;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.4rem;
+    border: 1px solid #3e403f;
+    color: #777b77;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.content .main ul.m-list li span:first-child {
+    font-weight: 600;
+    color: #e5e5e5;
+    font-size: 1.1rem;
+}
+
+.content .main ul.m-list li span:last-child {
+    display: inline-flex;
+    align-items: center;
+    color: #777b77;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.content .main ul.m-list li span:last-child:before {
+    content: "";
+    display: inline-block;
+    background: #00acc1;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.content .main ul.m-list li:hover {
+    background: #003a42;
+    border-color: #00acc1;
+}
+
+.content .main ul.m-list li:hover span:last-child {
+    color: #e5e5e5;
+}
+
+.content .main .notice {
+    background: #131514;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.content .main .notice .start i {
+    font-size: 1.5rem;
+    color: #e5e5e5;
+}
+.post-icons {
+  display: none;
+}
+.content .main .notice .stop {
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    color: #e5e5e5;
+}
+
+.content .main .notice .stop .twitter {
+    background: #00acc1;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    display: inline-block;
+    color: #131514;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.content .main .notice .stop .twitter:hover {
+    background: #00d9f4;
+}
+
+.content .footer {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.faq img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .content .header p {
+        font-size: 1rem;
+    }
+
+    .content .main ul.m-list li {
+        padding: 0.6rem 0.8rem;
+    }
+}
+      </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const urlMap = {
+                        home: "https://v2.sportsonline.pro/",
+                        mlb: "https://v2.sportsonline.pro/",
+                        nhl: "https://v2.sportsonline.pro/",
+                        nba: "https://v2.sportsonline.pro/",
+                        soccer: "https://v2.sportsonline.pro/",
+                        mma_boxing: "https://v2.sportsonline.pro/"
+                    };
+                    
+                    document.querySelectorAll(".bntl").forEach(item => {
+                        item.addEventListener("click", () => {
+                            const id = item.id;
+                            if (urlMap[id]) {
+                                window.open(urlMap[id], "_blank");
+                            }
+                        });
+                    });
+                });
+            </script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="container">
+                <div class="header">
+                    <img src="https://streameast-v2-0.s3.amazonaws.com/images/watch-live-nfl-streams-logo.png" width="180" height="24" alt="StreamEast">
+                        <h1><strong>StreamEast - Stream Live Sports NFL, UFC, MLB, NBA, NHL and Soccer</strong></h1>
+                </div>
+                <div class="main">
+                    <span>Please press Ctrl + D to bookmark this site to keep update about StreamEast-official domains.</span>
+                    <ul class="m-list">
+                        <li class="bntl" id="home">
+                            <span>StreamEast NFL</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="mma_boxing">
+                            <span>StreamEast UFC, MMA & Boxing</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="nba">
+                            <span>StreamEast Basketball (NBA & NCAA)</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="soccer">
+                            <span>StreamEast Soccer</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="mlb">
+                            <span>StreamEast MLB</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="nhl">
+                            <span>StreamEast NHL</span>
+                            <span>Live</span>
+                        </li>
+                        <li class="bntl" id="home">
+                            <span>StreamEast Home</span>
+                            <span>Live</span>
+                        </li>
+                    </ul>
+                    <div class="faq">
+                        
+                        <p><strong>StreamEast</strong> is a premier platform for live sports streaming, delivering high-definition coverage of NFL, NBA, MLB, NHL, and more. With seamless access, multi-device compatibility, and an array of sports options, it’s your one-stop destination for uninterrupted sports entertainment.</p>
+                        
+                        
+                        <h2><strong>What Makes StreamEast Unique?</strong></h2>
+                        <h3><strong>HD Quality Streams</strong></h3>
+                        <p>Enjoy crystal-clear HD streaming for every game, ensuring you never miss a detail, from touchdowns to buzzer-beaters.</p>
+                        <h3><strong>Multiple Sports Coverage</strong></h3>
+                        <p>Access live streams of NFL, NCAA, NBA, MLB, NHL, cricket, soccer, tennis, golf, and more in one convenient platform.</p>
+                        <h3><strong>User-Friendly Interface</strong></h3>
+                        <p><strong>StreamEast</strong> boasts an intuitive design, making it easy for users to navigate, find, and stream their favorite games in seconds.</p>
+                        <h3><strong>Cross-Device Compatibility</strong></h3>
+                        <p>Watch on your laptop, smartphone, tablet, or TV without interruptions, anytime and anywhere.</p>
+                        <h3><strong>Free and Premium Options</strong></h3>
+                        <p><strong>StreamEast</strong> offers a free tier with essential features and a premium subscription for an ad-free experience and exclusive benefits.</p>
+                        
+                        <h2><strong>How to Use StreamEast</strong></h2>
+                        <h3><strong>Create an Account</strong></h3>
+                        <p>Sign up with your email to access free streams or unlock premium features.</p>
+                        <h3><strong>Browse Sports Categories</strong></h3>
+                        <p>Navigate through a wide range of sports categories, organized for easy access to live events.</p>
+                        <h3><strong>Start Streaming</strong></h3>
+                        <p>Click on your chosen game, select the quality, and enjoy uninterrupted live coverage.</p>
+                        <h3><strong>Customizable Experience</strong></h3>
+                        <p>Save your favorite teams and sports for quick access to upcoming games and notifications.</p>
+                        <h3><strong>Troubleshooting and Support</strong></h3>
+                        <p>If you encounter issues, the platform offers 24/7 customer support and detailed guides to enhance your experience.</p>
+                        
+                        <h2><strong>StreamEast Premium Benefits</strong></h2>
+                        <h3><strong>Ad-Free Streaming</strong></h3>
+                        <p>Eliminate interruptions and enjoy your favorite games without annoying ads.</p>
+                        <h3><strong>Exclusive Access to Features</strong></h3>
+                        <p>Gain access to multi-stream views, real-time stats, and in-depth analytics for a complete sports experience.</p>
+                        <h3><strong>Higher Stream Quality</strong></h3>
+                        <p>Watch games in 4K resolution for the ultimate viewing pleasure.</p>
+                        <h3><strong>Multi-Screen Support</strong></h3>
+                        <p>Stream multiple games simultaneously on different devices.</p>
+                        <h3><strong>Dedicated Support Line</strong></h3>
+                        <p>Premium members get priority customer support to resolve issues faster.</p>
+                        
+                        <h2><strong>Supported Sports and Events</strong></h2>
+                        <h3><strong>NFL and NCAA</strong></h3>
+                        <p>Catch every NFL and college football game live, including playoffs and bowl games.</p>
+                        <h3><strong>NBA and NCAA Basketball</strong></h3>
+                        <p>Stream regular season, playoff games, and March Madness action live.</p>
+                        <h3><strong>Soccer Leagues Worldwide</strong></h3>
+                        <p>Enjoy live streams of the Premier League, La Liga, Serie A, and international tournaments.</p>
+                        <h3><strong>MLB and NHL</strong></h3>
+                        <p>Follow your favorite baseball and hockey teams with uninterrupted live coverage.</p>
+                        <h3><strong>Global Cricket and Tennis</strong></h3>
+                        <p>Stream international cricket matches and Grand Slam tennis tournaments in HD.</p>
+                        
+                        <h2><strong>Is StreamEast Legal and Safe?</strong></h2>
+                        <h3><strong>Legal Content Sources</strong></h3>
+                        <p><strong>StreamEast</strong> partners with licensed broadcasters, ensuring content legality.</p>
+                        <h3><strong>Encrypted Streams</strong></h3>
+                        <p>All streams are encrypted to protect your data and ensure a safe viewing experience.</p>
+                        <h3><strong>Privacy Features</strong></h3>
+                        <p><strong>StreamEast</strong> doesn’t compromise user data, maintaining strict privacy policies.</p>
+                        <h3><strong>Verified User Reviews</strong></h3>
+                        <p>With thousands of satisfied users, <strong>StreamEast</strong> proves its credibility in the live sports streaming industry.</p>
+                        <h3><strong>Avoid Unofficial Links</strong></h3>
+                        <p>Always access <strong>StreamEast</strong> through its official website or app to ensure safety and quality.</p>
+                        
+                        <h2><strong>Alternatives to StreamEast</strong></h2>
+                        <h3><strong>ESPN+</strong></h3>
+                        <p>A subscription-based service offering extensive sports coverage, including live games and exclusive shows.</p>
+                        <h3><strong>DAZN</strong></h3>
+                        <p>Specializes in boxing and MMA, with options for other sports streams.</p>
+                        <h3><strong>FuboTV</strong></h3>
+                        <p>An excellent choice for cord-cutters, featuring live sports channels and on-demand content.</p>
+                        <h3><strong>NBC Sports</strong></h3>
+                        <p>Live streams of NHL, Premier League, and other major sports events.</p>
+                        <h3><strong>YouTube TV</strong></h3>
+                        <p>A versatile platform offering sports channels and cloud DVR storage for replays.</p>
+                        
+                        <h2><strong>User Experience and Testimonials</strong></h2>
+                        <h3><strong>Seamless Access</strong></h3>
+                        <p>“I can easily watch my favorite games on any device. <strong>StreamEast</strong> never fails!” – John D.</p>
+                        <h3><strong>Reliable Streaming</strong></h3>
+                        <p>“<strong>StreamEast</strong> offers uninterrupted streams, even during peak times.” – Sarah T.</p>
+                        <h3><strong>Affordable Premium Tier</strong></h3>
+                        <p>“Upgrading to premium was worth every penny for the 4K quality!” – Mike P.</p>
+                        <h3><strong>Broad Sports Selection</strong></h3>
+                        <p>“From cricket to NBA, <strong>StreamEast</strong> has it all.” – Ananya R.</p>
+                        <h3><strong>Easy Navigation</strong></h3>
+                        <p>“The interface is intuitive and user-friendly, even for non-tech-savvy people.” – Linda M.</p>
+                        
+                        <h2><strong>FAQs About StreamEast</strong></h2>
+                        <h3><strong>Is StreamEast free to use?</strong></h3>
+                        <p>Yes, <strong>StreamEast</strong> offers a free tier, but premium options unlock additional features.</p>
+                        <h3><strong>What sports can I stream on StreamEast?</strong></h3>
+                        <p>You can stream NFL, NBA, MLB, NHL, soccer, cricket, tennis, and more.</p>
+                        <h3><strong>Does StreamEast have ads?</strong></h3>
+                        <p>The free version includes ads, but upgrading to premium provides an ad-free experience.</p>
+                        <h3><strong>Can I stream on multiple devices?</strong></h3>
+                        <p>Yes, <strong>StreamEast</strong> supports multi-device streaming, especially for premium users.</p>
+                        <h3><strong>Is StreamEast available worldwide?</strong></h3>
+                        <p><strong>StreamEast</strong> is accessible in most regions, but availability may depend on local licensing agreements.</p>
+                        
+                        <h2><strong>Conclusion</strong></h2>
+                        <p><strong>StreamEast</strong> stands out as a reliable and user-friendly platform for live sports streaming, catering to casual viewers and hardcore fans alike. With its diverse sports offerings, HD quality, and affordable premium features, it’s the perfect choice for staying connected to the games you love. Try <strong>StreamEast</strong> today and elevate your sports streaming experience!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
